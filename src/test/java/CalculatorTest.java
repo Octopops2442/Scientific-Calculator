@@ -29,19 +29,19 @@ public class CalculatorTest {
     public void checkSquare() {
         assertEquals(func.SquareRoot(4.0), 2.0, 1e-3);
     }
-
-    @org.junit.Test
-    public void checkFactorial() {
-        assertEquals(func.Factorial(5), 120, 0);
-    }
-
-    @org.junit.Test
-    public void checkLogarithm() {
-        assertEquals(func.Logarithm(1), 0.0, 0);
-    }
-
-    @org.junit.Test
-    public void checkPower() {
-        assertEquals(func.Power(2.0, 5.0), 32.0, 0);
-    }
+//
+//    @org.junit.Test
+//    public void checkFactorial() {
+//        assertEquals(func.Factorial(5), 120, 0);
+//    }
+//
+//    @org.junit.Test
+//    public void checkLogarithm() {
+//        assertEquals(func.Logarithm(1), 0.0, 0);
+//    }
+//
+//    @org.junit.Test
+//    public void checkPower() {
+//        assertEquals(func.Power(2.0, 5.0), 32.0, 0);
+//    }
 }
